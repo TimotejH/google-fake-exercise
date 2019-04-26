@@ -1,0 +1,105 @@
+
+body {
+    margin: 0;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    height: 35px;
+    width: 100%;
+}
+
+.navigation span {
+    float: right;
+    display: inline;
+    margin: 20px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.main {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 250px;
+}
+
+.main img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.main input {
+    border-radius: 25px;
+    width: 500px;
+}
+
+.main div {
+    text-align: center;
+}
+
+.main div button {
+    margin-top: 20px;
+    display: inline;
+    background-color: whitesmoke;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.search {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 35px;
+}
+
+footer {
+    display: block;
+    background-color: whitesmoke;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0px;
+}
+
+footer div {
+    padding: 10px;
+}
+
+.text {
+    border-bottom: 1px solid grey;
+}
+
+.text span {
+    margin: 20px;
+}
+.table1 {
+    display: inline;
+    float: left;
+}
+
+.table1 span {
+    margin: 20px;
+}
+
+.table2 {
+    float: right;
+    display: inline;
+}
+
+.table2 span {
+    margin: 20px;
+}
